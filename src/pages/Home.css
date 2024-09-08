@@ -1,0 +1,56 @@
+/* src/pages/Home.css */
+
+.home-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4; /* Light grey background */
+  }
+  
+  .home-container h1 {
+    font-size: 2.5rem;
+    color: #2a7d4c; /* Green */
+    margin-bottom: 1rem;
+  }
+  
+  .home-container p {
+    font-size: 1.2rem;
+    color: #333; /* Dark grey for readability */
+    line-height: 1.6;
+    margin: 0 0 1.5rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .home-container .highlight {
+    font-weight: bold;
+    color: #2a7d4c; /* Green for highlighting */
+  }
+  
+  .home-container .button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #2a7d4c; /* Green */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .home-container .button:hover {
+    background-color: #1f5a34; /* Darker green for hover effect */
+  }
+  
+  .qr-section {
+    margin-top: 2rem;
+  }
+  
+  .qr-section img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,56 @@
+/* src/components/PlantCard.css */
+
+.plant-card {
+    background-color: #fff; /* White background for cards */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-align: center;
+    padding: 1rem;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .plant-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .plant-image {
+    width: 100%;
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+  }
+  
+  .plant-info {
+    padding: 1rem;
+  }
+  
+  .plant-name {
+    font-size: 1.2rem;
+    color: #333; /* Dark grey */
+    margin: 0;
+  }
+  
+  .plant-price {
+    font-size: 1rem;
+    color: #2a7d4c; /* Green */
+    margin: 0;
+  }
+  
+  .add-to-cart {
+    background-color: #2a7d4c; /* Green */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #1f6b3b; /* Darker green */
+  }
+  
